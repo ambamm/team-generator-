@@ -1,4 +1,6 @@
-class Employee { 
+const Employee = require ("./Employee")
+
+class Intern { 
     //start constructors for new employee classes
     constructor(name, id, email) {
         this.name - name;
@@ -7,4 +9,9 @@ class Employee {
     }
 }
 
-//create methods
+//constructors
+
+//methods
+
+
+module.exports = Intern;

@@ -1,5 +1,5 @@
 const Employee = require("./Employee");
-
+//constructors
 class Engineer extends Employee {
     //create constructor
     constructor(name, id, email, github) {
@@ -11,4 +11,4 @@ class Engineer extends Employee {
 //methods
 
 
-module.exports = Employee;
+module.exports = Engineer;
